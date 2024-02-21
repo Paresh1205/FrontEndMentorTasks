@@ -1,0 +1,46 @@
+
+.Bg-White{background-color:hsl(0, 0%, 100%)}
+.Bg-LightGray{background-color:hsl(212, 45%, 89%)}
+.Bg-GrayishBlue{color:hsl(220, 15%, 55%)}
+.Bg-DarkBlue{background-color:hsl(218, 44%, 22%)}
+
+p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Outfit';
+}
+
+.QrImage{
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.qrDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 7%;
+    max-height: 100vh;
+}
+
+.qrCode{
+    max-width: 32%;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+h4{
+    font-weight: 700;
+    margin: 15px 0px;
+}
+
+@media (max-width:767px) {
+    .qrDetails{
+        height: 100vh;
+    }
+    .qrCode{
+        max-width: 87%;
+    }
+}
